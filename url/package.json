@@ -1,0 +1,23 @@
+{
+  "name": "urlshortner",
+  "version": "1.0.0",
+  "description": "A url shortner",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "dev"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "anshul saini",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3",
+    "nanoid": "^5.0.7",
+    "shortid": "^2.2.16"
+  }
+}
